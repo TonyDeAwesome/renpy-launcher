@@ -15,3 +15,11 @@ You must specify the path to your game directory in the script:
 
 ```python
 GAMES_DIR = Path("/your/path")  # Set this to your Ren'Py games folder
+
+Example directory structure:
+
+```/your/path/
+├── DokiDoki/
+│   └── DDLC.sh
+├── ButterflySoup/
+│   └── start.sh
