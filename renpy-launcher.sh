@@ -7,7 +7,7 @@ from pathlib import Path
 from tkinter import ttk, messagebox
 
 # Where your games are stored
-GAMES_DIR = Path("/home/tthedasher/TheNetworkMedia/Games/itch.io/Ren'Py")
+GAMES_DIR = Path("/your/path")
 
 # Scan for .sh launchers in 1-level deep subfolders
 def find_games():
