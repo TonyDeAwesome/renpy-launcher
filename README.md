@@ -1,10 +1,17 @@
-# renpy-launcher
-[UNFINISHED] A launcher dedicated to running games based on Ren'Py, made only for Linux. it is not yet finished. While it runs and launches games from a specified filepath, stylization remains to be added.
+# 🎮 Ren'Py Launcher (for Linux)
 
-WHAT YOU NEED:
+**[IN DEVELOPMENT]**  
+A minimalist launcher for Ren'Py-based visual novels and games. Built with Python and Tkinter for Linux systems.
+
+## 📦 Requirements
 
 - Python 3
-- TKinter
-- Ren'Py game folders (obviously). Examples include Doki Doki Literature Club, A Date With Death, Butterfly Soup
+- Tkinter (`sudo apt install python3-tk`)
+- Ren'Py games in subfolders with a `.sh` launcher script
 
-Replace "/your/path" in renpy-launcher.sh with your specified path where your game files are stored.
+## 📁 Directory Setup
+
+You must specify the path to your game directory in the script:
+
+```python
+GAMES_DIR = Path("/your/path")  # Set this to your Ren'Py games folder
